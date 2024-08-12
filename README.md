@@ -2,7 +2,7 @@
 Formify makes it easy for you to create attractive forms
 
 # Author
-[M Dzaki Ardiansyah]('https://www.instagram.com/dzakiardi.ansyah/')
+[M Dzaki Ardiansyah](https://www.instagram.com/dzakiardi.ansyah/)
 
 # Description
 formify like google form but formify evry simpely, you only can create form with question type input, textarea & combobox (type select option)
@@ -31,7 +31,7 @@ formify like google form but formify evry simpely, you only can create form with
 
 # Demo
 
-[link demo]('https://dzakiardiansyah.69dev.id')
+[link demo](https://dzakiardiansyah.69dev.id)
 just info demo only UI 
 
 # Contribute
