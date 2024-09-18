@@ -9,7 +9,7 @@
           <div class="accordion-item">
             <h2 class="accordion-header">
               <button class="accordion-button collapsed t-black font-primary" type="button" data-bs-toggle="collapse" data-bs-target="#<?= $answer["id"] ?>" aria-expanded="false" aria-controls="<?= $answer["id"] ?>">
-                <?= $answer["username"] ?? "Anonyimus" ?>
+                <?= $answer["username"] ?? "anonymous" ?>
               </button>
             </h2>
             <div id="<?= $answer["id"] ?>" class="accordion-collapse collapse" data-bs-parent="#accordionFlushExample">
