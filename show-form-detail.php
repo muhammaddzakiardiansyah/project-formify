@@ -152,10 +152,10 @@ if ($_SERVER["REQUEST_METHOD"] === "POST") {
         <div class="card-body">
           <h1 class="t-black big-header"><?= $form["title"] ?></h1>
           <p class="t-black medium-header mt-20"><?= $form["description"] ?></p>
+          <h6 class="mt-5 t-black medium-header">Made by <?= $form["show_creator"] ? "<a href='#' class='text-decoration-none'>@$creator</a>" : "Anonymus" ?> on <small class="t-black medium-header"><?php $date = DateTime::createFromFormat("Y-m-d H:i:s", $form["created_at"]);
+                                                                                                                                                                                                      echo $date->format("Y/m/d") ?></small>
+          </h6>
           <?php if ($form["user_id"] == $user_id) : ?>
-            <h6 class="mt-5 t-black medium-header">Made by <?= $form["show_creator"] ? "<a href='#' class='text-decoration-none'>@$creator</a>" : "Anonymus" ?> on <small class="t-black medium-header"><?php $date = DateTime::createFromFormat("Y-m-d H:i:s", $form["created_at"]);
-                                                                                                                                                                                                        echo $date->format("Y/m/d") ?></small>
-            </h6>
             <div class="box-tools mt-3 d-flex justify-content-beetwen gap-2">
               <button class="btn btn-sm btn-primary btn-create-question" onclick="createQuestion()"><i class="bi bi-file-earmark-plus"></i> Create Question</button>
               <button class="btn btn-sm btn-secondary btn-show-result" onclick="showResult()"><i class="bi bi-eye"></i> Result</button>
