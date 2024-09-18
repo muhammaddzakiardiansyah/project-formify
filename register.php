@@ -34,8 +34,8 @@ if(!empty($_POST)) {
               timer: 2500,
             });
             setTimeout(() => {
-              document.location.href = "/login";
-            });
+              document.location.href = "login";
+            }, 2500);
         </script>';
     } elseif($register == 200) {
       echo '<script>
